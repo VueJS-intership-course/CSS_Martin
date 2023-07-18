@@ -1,0 +1,33 @@
+@import "../mixins/mixins.scss";
+
+.after-rating {
+  padding-top: 5.125rem;
+
+  .after-rating__items {
+    display: flex;
+    height: 46.875rem;
+    width: 100%;
+
+    .after-rating__items--main {
+      display: flex;
+      gap: 2.625rem;
+      justify-content: space-between;
+      //! For var
+
+      .after-rating__items--text {
+        display: flex;
+        flex-direction: column;
+        width: 33.125rem;
+        gap: 2rem;
+
+        @include text;
+
+        @include button;
+      }
+
+      .after-rating__items--photo {
+        overflow: hidden;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import "../mixins/mixins.scss";
+
+.comeet {
+  padding-top: 9.25rem;
+  padding-bottom: 6.75rem;
+
+  .comeet__items--main {
+    display: flex;
+    height: 35rem;
+    width: 100%;
+
+    .comeet__items {
+      display: flex;
+      gap: 2.625rem;
+      justify-content: space-between;
+
+      .comeet__items--text {
+        display: flex;
+        flex-direction: column;
+        margin-top: -3.125;
+        width: 33.125rem;
+        gap: 2rem;
+
+        @include text;
+
+        @include button;
+      }
+
+      .comeet__items--photo {
+        margin-left: 2.125rem;
+      }
+    }
+    .comeet__items--svg {
+      position: absolute;
+      overflow: hidden;
+      right: 0;
+      top: 340%;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import '../mixins/mixins.scss';
+
+.services-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6.25rem 10.25rem;
+  gap: 3rem;
+
+  .services-main__text {
+    display: flex;
+    flex-direction: column;
+    width: 40.125rem;
+    gap: 1.5rem;
+
+    .services-main__text--title {
+      color: #0d0a10;
+      text-align: center;
+
+      /* H - 48 */
+      font-family: Montserrat;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 112.5%; /* 54px */
+    }
+
+    .services-main__text--paragraph {
+      color: #0d0a10;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 1.75rem; /* 155.556% */
+    }
+  }
+
+  .services-main__photos {
+    display: flex;
+    height: 19.938rem;
+    border: 1px solid black;
+    justify-content: center;
+    border: 1px solid #ccc;
+
+    @include servicesImage;
+  }
+}

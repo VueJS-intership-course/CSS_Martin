@@ -1,0 +1,58 @@
+.after-rating {
+  padding-top: 5.125rem; }
+  .after-rating .after-rating__items {
+    display: flex;
+    height: 46.875rem;
+    width: 100%; }
+    .after-rating .after-rating__items .after-rating__items--main {
+      display: flex;
+      gap: 2.625rem;
+      justify-content: space-between; }
+      .after-rating .after-rating__items .after-rating__items--main .after-rating__items--text {
+        display: flex;
+        flex-direction: column;
+        width: 33.125rem;
+        gap: 2rem; }
+        .after-rating .after-rating__items .after-rating__items--main .after-rating__items--text h1 {
+          color: #0d0a10;
+          font-family: Montserrat;
+          font-size: 3rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 112.5%;
+          /* 54px */ }
+        .after-rating .after-rating__items .after-rating__items--main .after-rating__items--text p {
+          color: #0d0a10;
+          font-family: Montserrat;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 31.2px */ }
+        .after-rating .after-rating__items .after-rating__items--main .after-rating__items--text ul {
+          color: #0d0a10;
+          font-family: Montserrat;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.75rem;
+          /* 155.556% */
+          margin-left: -2.5rem; }
+        .after-rating .after-rating__items .after-rating__items--main .after-rating__items--text button {
+          align-self: flex-start;
+          border-radius: 0.75rem;
+          background: #381df6;
+          padding: 0.75rem 2rem;
+          border: none;
+          width: 10.563rem; }
+          .after-rating .after-rating__items .after-rating__items--main .after-rating__items--text button a {
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 1.5rem; }
+      .after-rating .after-rating__items .after-rating__items--main .after-rating__items--photo {
+        overflow: hidden; }
